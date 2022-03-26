@@ -1,0 +1,118 @@
+*{margin: 0; 
+  padding: 0;
+  max-width: 100%;}
+body{background: rgb(32, 32, 32);}
+
+
+figure{
+    position: relative;
+    width: 400px;
+    margin: 10px; padding: 3px;
+    overflow: hidden;
+}
+figure img{display:block; width: inherit;}
+ 
+figcaption{
+  position:absolute;
+  bottom: 3px; opacity:0;
+  box-sizing: border-box;
+  width: 400px; padding: 4px;
+  background: #666;color:#fff;
+  font-size: 0.875rem;
+  transition: .5s;
+}
+figure:hover > figcaption{ opacity:.8;}
+
+h1 {
+    color:darkseagreen;
+    font-size:40px;
+}
+h2 {
+    color:rgb(216, 215, 215);
+    font-size: 25px;
+}
+
+#hello {
+ position: absolute;
+ top:25%;
+ left:45%;
+}
+
+#helloEmoji {
+    position: absolute;
+    top:0%;
+    left:10%;
+}
+
+#imgcaption {
+    color:#666;
+    font-size: 13px;
+    position: absolute;
+    top:98%;
+    left:30%;
+}
+
+#introduceEmoji {
+    color:rgb(247, 246, 246);
+    font-size: 18px;
+    position: absolute;
+    top: 60%;
+    left: 47%;
+    color: inherit;
+}
+
+#profile {
+    color:rgb(255, 131, 131);
+    font-size: 45px;
+    position: absolute;
+    top: 90%;
+    left: 10%;
+}
+
+#profileContents {
+    color:rgb(216, 215, 215);
+    font-size: 20px;
+    position: absolute;
+    top: 100%;
+    left: 10%;
+}
+
+#home {
+    color:darkorange;
+    font-size: 45px;
+    position: absolute;
+    top: 170%;
+    left: 10%;
+}
+
+#homeContents {
+    color:rgb(216, 215, 215);
+    font-size: 20px;
+    position: absolute;
+    top: 180%;
+    left: 10%;
+}
+
+#coffee {
+    color:rgb(196, 170, 138);
+    font-size: 45px;
+    position: absolute;
+    top: 225%;
+    left: 10%;
+}
+
+#coffeeContents {
+    color:rgb(216, 215, 215);
+    font-size: 20px;
+    position: absolute;
+    top: 240%;
+    left: 10%;
+}
+
+#menu {
+    color:rgb(216, 215, 215);
+    font-size: 20px;
+    position: absolute;
+    top: 260%;
+    left: 10%;
+}
